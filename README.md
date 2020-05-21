@@ -31,4 +31,16 @@
 3. Auth : To authenticate user based on roles
 4. Error : Custom error handler
 
+## Security Measures
+1. Prevent NoSql Injections
+2. XSS Protection
+3. Rate Limiting
+4. HPP
+5. CORS
+
+## Deployment Platform
+[Heroku](https://www.heroku.com) \
+[MongoDB](https://www.mongodb.com)
+
+
 > Author: Sahib Singh

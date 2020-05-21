@@ -16,10 +16,10 @@ exports.protect = asyncHandler(async (req, res, next) => {
     // Set token from Cookie
     // Option For Adding Cookie
     // If no bearer token, this cookie will be used in the protected routes
-    else if(req.cookies.token) {
+    // else if(req.cookies.token) {
         
-        token = req.cookies.token;
-    }
+    //     token = req.cookies.token;
+    // }
 
 
     // Make sure token exists in either req or cookie
