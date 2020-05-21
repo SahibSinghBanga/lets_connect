@@ -9,7 +9,7 @@ const PostSchema = new mongoose.Schema({
   },
   body: {
     type: String,
-    required: [true, "Please some body to the post"]
+    required: [true, "Please add some body to the post"]
   },
   avatar: {
     type: String,
@@ -54,6 +54,5 @@ const PostSchema = new mongoose.Schema({
     required: true
   }
 });
-
 
 module.exports = mongoose.model('Post', PostSchema);
