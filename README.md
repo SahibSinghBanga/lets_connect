@@ -42,5 +42,6 @@
 [Heroku](https://www.heroku.com) \
 [MongoDB](https://www.mongodb.com)
 
-
-> Author: Sahib Singh
+### Docgen
+> docgen.exe build -i Lets_Connect.postman_collection.json -o index.html
+>
